@@ -23,7 +23,6 @@
                 android:layout_height="130dp"
                 android:src="@drawable/guni_pink_logo"
                 android:contentDescription="Logo">
-
             </ImageView>
 
             <com.google.android.material.card.MaterialCardView
@@ -50,7 +49,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="User Full Name: "
-                            android:textSize="20sp"/>
+                            android:textSize="16sp"/>
 
                         <Space
                             android:layout_width="0dp"
@@ -62,8 +61,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="text"
-                            android:id="@+id/edit_text1"
-                            android:textSize="20sp"/>
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -76,7 +74,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Phone No.: "
-                            android:textSize="18sp"/>
+                            android:textSize="16sp"/>
 
                         <Space
                             android:layout_width="0dp"
@@ -88,8 +86,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="number"
-                            android:id="@+id/edit_text2"
-                            android:textSize="20sp"/>
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -102,7 +99,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="City: "
-                            android:textSize="18sp"/>
+                            android:textSize="16sp"/>
 
                         <Space
                             android:layout_width="0dp"
@@ -114,8 +111,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="text"
-                            android:id="@+id/edit_text6"
-                            android:textSize="20sp"/>
+                            android:textSize="16sp" />
 
                     </LinearLayout>
                     <LinearLayout
@@ -127,7 +123,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Email: "
-                            android:textSize="18sp"/>
+                            android:textSize="16sp"/>
 
                         <Space
                             android:layout_width="0dp"
@@ -139,8 +135,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textEmailAddress"
-                            android:id="@+id/edit_text4"
-                            android:textSize="20sp"/>
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -153,7 +148,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Password: "
-                            android:textSize="18sp"/>
+                            android:textSize="16sp"/>
 
                         <Space
                             android:layout_width="0dp"
@@ -165,8 +160,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPassword"
-                            android:id="@+id/edit_text3"
-                            android:textSize="20sp"/>
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -179,7 +173,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Confirm Password: "
-                            android:textSize="18sp"/>
+                            android:textSize="16sp" />
 
                         <Space
                             android:layout_width="0dp"
@@ -191,8 +185,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textWebPassword"
-                            android:id="@+id/edit_text5"
-                            android:textSize="20sp"/>
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -204,11 +197,12 @@
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15dp"
                             android:paddingHorizontal="50dp"
                             android:text="Register"
                             android:textColor="#FFFFFF"
-                            android:textSize="18sp"
-                            android:layout_gravity="center"/>
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -228,6 +222,7 @@
                     android:textSize="16sp"/>
 
                 <Button
+                    android:id="@+id/btn_login"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="LogIn"
